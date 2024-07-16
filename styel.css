@@ -1,0 +1,194 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #F5F6FA;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+main {
+    display: flex;
+    flex: 1;
+}
+body{
+background-color: #F5F6FA;
+}
+::-webkit-scrollbar{
+width: 15px;
+}
+::-webkit-scrollbar-thumb{
+background-color: #487fff63;
+border-radius: 5px;
+transition: all 0.9s;
+
+}
+::-webkit-scrollbar-thumb:hover{
+background-color: #4880FF;
+}
+::-webkit-scrollbar-track{
+background-color: #f6f6f6;
+box-shadow: 0 0 10px #ddd inset;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.aside-all{
+white-space:nowrap;
+padding: 24px !important;
+display: flex;
+height: 100vh;
+}
+#home{
+overflow-y: auto;
+height: 100vh;
+}
+li{
+list-style: none;
+}
+.aside-btn{
+padding: 8px 30px;
+color: black;
+position: relative;
+transition: all 0.5s;
+cursor: pointer;
+}
+.aside-btn::before{
+content: "";
+position: absolute;
+width: 5px;
+border-radius: 100Vh;
+left: -50%;
+top: 2px;
+bottom: 2px;
+background-color: #4880FF;
+transition: all 0.3s;
+}
+.aside-btn:hover{
+background-color: #4880FF ;
+border-radius: 10px;
+
+}
+.act a{
+color: white !important;
+}
+.act{
+background-color: #4880FF;
+color: white !important;
+border-radius: 10px;
+}
+.act::before{
+content: "";
+position: absolute;
+width: 5px;
+border-radius: 100Vh;
+left: -10%;
+top: 2px;
+bottom: 2px;
+background-color: #4880FF;
+transition: all 0.3s;
+}
+
+
+
+.text-s-sm{
+font-size: 14px;
+}
+
+.aside-btn:hover span , .aside-btn:hover i {
+color: white;
+}
+.aside-btn:hover::before{
+left: -10%;
+}
+.closeing:hover{
+cursor: pointer;
+}
+
+.ui-input-container {
+position: relative;
+width: 300px;
+}
+
+.ui-input {
+width: 100%;
+padding: 10px 10px 10px 40px;
+font-size: 1em;
+border: none;
+border-bottom: 2px solid #ccc;
+outline: none;
+background-color: transparent;
+transition: border-color 0.3s;
+}
+
+.ui-input:focus {
+border-color: #6c63ff;
+}
+
+.ui-input-underline {
+position: absolute;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 100%;
+background-color: #6c63ff;
+transform: scaleX(0);
+transition: transform 0.3s;
+}
+
+.ui-input:focus + .ui-input-underline {
+transform: scaleX(0.8);
+}
+
+.ui-input-highlight {
+position: absolute;
+bottom: 0;
+left: 0;
+height: 100%;
+width: 0;
+background-color: rgba(108, 99, 255, 0.1);
+transition: width 0.3s;
+}
+
+.ui-input:focus ~ .ui-input-highlight {
+width: 100%;
+}
+
+.ui-input-icon {
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+color: #999;
+transition: color 0.3s;
+}
+
+.ui-input:focus ~ .ui-input-icon {
+color: #6c63ff;
+}
+
+.ui-input-icon svg {
+width: 20px;
+height: 20px;
+}
+
+.inner{
+transition: all 0.4s;
+}
+.inner:hover{
+transform: scale(1.09);
+}
+i{
+    margin-right: 10px;
+}
+nav {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.thead{
+   background-color:#4880FF ;
+}
+

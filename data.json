@@ -1,0 +1,37 @@
+{
+    "customers": [
+        { "id": 1, "name": "sayed mohamed", "email": "sayedmohamed@gmail.com", "phone": "01150778216", "gendar": "m" },
+        { "id": 2, "name": "Ahmed Ali", "email": "ahmed@example.com", "phone": "123-456-7890", "gendar": "m" },
+        { "id": 3, "name": "Aya Elsayed", "email": "aya@example.com", "phone": "234-567-8901","gendar": "f" },
+        { "id": 4, "name": "Mina Adel", "email": "mina@example.com", "phone": "345-678-9012","gendar": "m" },
+        { "id": 5, "name": "Sarah Reda", "email": "sarah@example.com", "phone": "456-789-0123","gendar": "f" },
+        { "id": 6, "name": "Mohamed Sayed", "email": "mohamed@example.com", "phone": "567-890-1234","gendar": "m" }
+    ],
+    "transactions": [
+        { "id": 1, "customer_id": 1, "date": "2022-01-01", "amount": 1000 },
+        { "id": 1, "customer_id": 1, "date": "2022-01-04", "amount": 3000 },
+        { "id": 1, "customer_id": 1, "date": "2022-01-09", "amount": 6000 },
+        { "id": 2, "customer_id": 1, "date": "2022-02-01", "amount": 9000 },
+        { "id": 2, "customer_id": 6, "date": "2022-02-01", "amount": 1500 },
+        { "id": 2, "customer_id": 6, "date": "2022-02-01", "amount": 3000 },
+        { "id": 2, "customer_id": 6, "date": "2022-02-01", "amount": 4500 },
+        { "id": 2, "customer_id": 6, "date": "2022-02-01", "amount": 5000 },
+        { "id": 2, "customer_id": 6, "date": "2022-02-01", "amount": 7000 },
+        { "id": 3, "customer_id": 2, "date": "2022-01-01", "amount": 550 },
+        { "id": 5, "customer_id": 2, "date": "2022-02-01", "amount": 1300 },
+        { "id": 5, "customer_id": 2, "date": "2022-02-01", "amount": 2000 },
+        { "id": 5, "customer_id": 2, "date": "2022-02-01", "amount": 3000 },
+        { "id": 6, "customer_id": 4, "date": "2022-01-01", "amount": 750 },
+        { "id": 6, "customer_id": 4, "date": "2022-02-01", "amount": 1850 },
+        { "id": 6, "customer_id": 4, "date": "2022-02-01", "amount": 2500 },
+        { "id": 6, "customer_id": 4, "date": "2022-02-01", "amount": 3500 },
+        { "id": 4, "customer_id": 3, "date": "2022-01-01", "amount": 500 },
+        { "id": 7, "customer_id": 3, "date": "2022-02-01", "amount": 1250 },
+        { "id": 7, "customer_id": 3, "date": "2022-02-01", "amount": 1900 },
+        { "id": 7, "customer_id": 3, "date": "2022-02-01", "amount": 4000 },
+        { "id": 8, "customer_id": 5, "date": "2022-02-01", "amount": 2500 },
+        { "id": 8, "customer_id": 5, "date": "2022-02-01", "amount": 4500 },
+        { "id": 8, "customer_id": 5, "date": "2022-02-01", "amount": 5900 },
+        { "id": 9, "customer_id": 5, "date": "2022-01-01", "amount": 7000 }
+    ]
+}
